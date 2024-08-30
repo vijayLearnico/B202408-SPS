@@ -1,0 +1,53 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-view{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.container{
+    height: 170px;
+    width: 190px;
+    background-color: palegreen;
+    justify-content: space-evenly;
+}
+
+.player-option{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+
+.cpu-option{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
+
+.stone{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(200, 255, 0);
+}
+
+.paper{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(212, 0, 255);
+}
+
+.scissor{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 77, 0);
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
